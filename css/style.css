@@ -5,6 +5,9 @@ header{
     background-size: cover;
     background-position: center center;
 }
+nav{
+    z-index: 999999;
+}
 nav ul li a{
     padding: 20px !important;
     font-size: 18px !important;
