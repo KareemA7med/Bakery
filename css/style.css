@@ -13,8 +13,11 @@ nav ul li a{
     font-size: 18px !important;
     font-weight: 500 !important;
 }
+.nav-link{
+    color: white;
+}
 nav ul li a:hover{
-    color: #09c !important;
+    color: #917b5a !important;
 }
 .home h5 ,.home p,.home h1{
     color: white;
@@ -184,4 +187,21 @@ list-style: none;
 }
 .fa-twitter:hover{
     background-color: #1DA1F2 ;
+}
+.up-icon{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    display: none;
+}
+.up-icon i{
+    background-color: gray;
+    border: 1px gray solid;
+    border-radius: 50%;
+    padding: 10px;
+    transition: all .5s;
+    cursor:pointer;
+}
+.up-icon i:hover{
+    background-color: #57534d !important;
 }

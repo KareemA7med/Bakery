@@ -8,7 +8,7 @@
     <body>
 
         <header id="home" class="position-relative d-flex justify-content-center align-items-center text-center">
-            <nav class="navbar navbar-expand-lg position-fixed top-0 start-0 w-100 bg-black">
+            <nav class="navbar navbar-expand-lg position-fixed top-0 start-0 w-100">
                 <div class="container-fluid">
                     <a class="navbar-brand ps-5" href="#"><img class=" w-50" src="img/bakery-light-1.png" alt=""></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -18,19 +18,19 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-5">
                             <li class="nav-item">
-                                <a class="nav-link text-white" aria-current="page" href="#home">Home</a>
+                                <a class="nav-link" aria-current="page" href="#home">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-white" aria-current="page" href="#about">About</a>
+                                <a class="nav-link" aria-current="page" href="#about">About</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-white" aria-current="page" href="#Our Offer">Our Offer</a>
+                                <a class="nav-link" aria-current="page" href="#Our Offer">Our Offer</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-white" aria-current="page" href="#Gallery">Gallery</a>
+                                <a class="nav-link" aria-current="page" href="#Gallery">Gallery</a>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                     aria-expanded="false">Blog</a>
                                 <ul class="dropdown-menu">
                                     <li><a class="dropdown-item" href="#">Blog Index</a></li>
@@ -40,7 +40,7 @@
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-white " aria-current="page" href="#Contact">Contact</a>
+                                <a class="nav-link" aria-current="page" href="#Contact">Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -49,7 +49,7 @@
             
             <section class="home pt-5">
                 <h5>Welcome to</h5>
-                <h1 class="my-4">Family Bakery</h1>
+                <h1 class="my-4 main-head">Family Bakery</h1>
                 <p>We're the biggest, best equipped and most advanced Bakery in the greater Los Angeles area.</p>
                 <button class="btn text-white m-3 p-3 learn-btn">Learn More</button>
                 <button class="btn text-white m-3 p-3 Contact-btn">Contact Us</button>
@@ -206,7 +206,7 @@
             </div>
         </section>
 
-        <footer class="pt-3">
+        <footer class="pt-3 position-relative">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-3">
@@ -253,6 +253,7 @@
                     </div>
                 </div>
             </div>
+
             <div class="end-footer py-5 text-center">
                 <img src="img/bakery-light-1.png" alt="">
                 <p>Copyright 2017. All rights reserved.</p>
@@ -263,9 +264,14 @@
                     <li><a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
                 </ul>
             </div>
+
+            <div class="up-icon">
+                <i class="fa-solid fa-angle-up fs-3 m-4 text-white shadow box-shadow-full"></i>
+            </div>
         </footer>
 
         <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/jquery-3.6.1.min.js"></script>
         <script src="js/main.js"></script>
     </body>
 </html>
